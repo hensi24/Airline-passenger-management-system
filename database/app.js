@@ -24,7 +24,7 @@ var cors = require("cors");
 
 mongoose
   .connect(
-    "mongodb+srv://hensivaghasiya05:hensy%4024@hensi.zhcxko7.mongodb.net/Airport_management_system"
+   proceq.env.mogopath
   )
   .then(() => console.log("Connected!"))
   .catch((err) => {
